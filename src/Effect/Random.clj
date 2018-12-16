@@ -1,3 +1,4 @@
 (ns Effect.Random._foreign)
 
-(def random rand)
+(defn random [& _]
+  (rand))
